@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sLeaf1",
-    "path": "sprites/sLeaf1/sLeaf1.yy",
+    "name": "sLeaf4",
+    "path": "sprites/sLeaf4/sLeaf4.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oLeaf1","path":"objects/oLeaf1/oLeaf1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"parent":{"name":"oLeaf1","path":"objects/oLeaf1/oLeaf1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oLeaf4","path":"objects/oLeaf4/oLeaf4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"parent":{"name":"oLeaf4","path":"objects/oLeaf4/oLeaf4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"is_matched","tags":[],"resourceType":"GMObjectProperty",},
@@ -33,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oLeaf1",
+  "name": "oLeaf4",
   "tags": [],
   "resourceType": "GMObject",
 }

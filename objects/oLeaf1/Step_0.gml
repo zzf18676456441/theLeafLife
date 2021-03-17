@@ -1,5 +1,5 @@
 // While LMB is held, drag object
-if (mouse_check_button(mb_left) && position_meeting(mouse_x, mouse_y, id)) {
+if (global.grabbed == self && is_matched != 1) {
 	id.x = mouse_x;
 	id.y = mouse_y;
 	
@@ -19,24 +19,32 @@ if (mouse_check_button(mb_left) && position_meeting(mouse_x, mouse_y, id)) {
 }
 
 // Match this object with its outline if conditions are met (proper rotation, relatively close position, etc.)
-var inst;
-inst = instance_position(id.x, id.y, oOutlineLeaf1);
-if (inst != noone) {
-	if ((point_distance(id.x, id.y, inst.x, inst.y) < 15) && (abs(id.image_angle - inst.image_angle) < 5)) {
-		id.x = inst.x;
-		id.y = inst.y;
-		id.image_angle = inst.image_angle;
-		inst.has_match = 1;
-		is_matched = 1;
-	} else {
-		inst.has_match = 0;
-		is_matched = 0;
+var list = ds_list_create();
+var num = instance_place_list(id.x, id.y, oLeaf1_Outline, list, false);
+if (num > 0) {
+	for(var i = 0; i <= num; i += 1) {
+		var obj = instance_find(oLeaf1_Outline, i);
+		if(place_meeting(id.x, id.y, obj)) {
+			if ((point_distance(id.x, id.y, obj.x, obj.y) < 15) && (abs(id.image_angle - obj.image_angle) < 5)) {
+				id.x = obj.x;
+				id.y = obj.y;
+				id.image_angle = obj.image_angle;
+				//obj.has_match = 1;
+				is_matched = 1;
+			} else {
+				//obj.has_match = 0;
+				//is_matched = 0;
+			}
+		}
 	}
+	
 }
+ds_list_destroy(list);
 
 // If the player is incorrect, place the leaf back at its original position
 if (mouse_check_button_released(mb_left)) {
 	if (is_matched == 0) {
+		global.grabbed = noone;
 		id.x = id.xstart;
 		id.y = id.ystart;
 	}

@@ -1,0 +1,1 @@
+global.grabbed = noone;

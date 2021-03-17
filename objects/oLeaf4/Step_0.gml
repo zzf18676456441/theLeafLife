@@ -20,10 +20,10 @@ if (global.grabbed == self && is_matched != 1) {
 
 // Match this object with its outline if conditions are met (proper rotation, relatively close position, etc.)
 var list = ds_list_create();
-var num = instance_place_list(id.x, id.y, oLeaf2_Outline, list, false);
+var num = instance_place_list(id.x, id.y, oLeaf4_Outline, list, false);
 if (num > 0) {
 	for(var i = 0; i <= num; i += 1) {
-		var obj = instance_find(oLeaf2_Outline, i);
+		var obj = instance_find(oLeaf4_Outline, i);
 		if(place_meeting(id.x, id.y, obj)) {
 			if ((point_distance(id.x, id.y, obj.x, obj.y) < 15) && (abs(id.image_angle - obj.image_angle) < 5)) {
 				id.x = obj.x;
