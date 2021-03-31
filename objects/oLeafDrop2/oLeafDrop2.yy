@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sLeaf4",
-    "path": "sprites/sLeaf4/sLeaf4.yy",
+    "name": "sLeaf4Small",
+    "path": "sprites/sLeaf4Small/sLeaf4Small.yy",
   },
   "solid": false,
   "visible": true,
