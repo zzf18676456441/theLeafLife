@@ -13,3 +13,7 @@ if(keyboard_check_pressed(vk_escape)){
 	}
 
 }
+
+if(room != startRoom1 && room != Room2) {
+	event_user(3);
+}
