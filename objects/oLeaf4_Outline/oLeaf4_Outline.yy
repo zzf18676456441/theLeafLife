@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "LeafObjects",
+    "path": "folders/Objects/LeafObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "oLeaf4_Outline",

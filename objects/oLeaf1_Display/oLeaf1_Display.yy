@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sLeaf5_Outline",
-    "path": "sprites/sLeaf5_Outline/sLeaf5_Outline.yy",
+    "name": "sLeaf1",
+    "path": "sprites/sLeaf1/sLeaf1.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/LeafObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oLeaf5_Outline",
+  "name": "oLeaf1_Display",
   "tags": [],
   "resourceType": "GMObject",
 }

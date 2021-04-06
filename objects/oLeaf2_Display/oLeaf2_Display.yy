@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sLeaf2",
+    "path": "sprites/sLeaf2/sLeaf2.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":13,"eventType":9,"collisionObjectId":null,"parent":{"name":"oRoomManager","path":"objects/oRoomManager/oRoomManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "LeafObjects",
+    "path": "folders/Objects/LeafObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oRoomManager",
+  "name": "oLeaf2_Display",
   "tags": [],
   "resourceType": "GMObject",
 }

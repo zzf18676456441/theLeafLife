@@ -11,3 +11,9 @@ if(room = startRoom1){
 	isGameStart = true;
 	menuOpen = false;
 }
+
+num_total_level_1 = 4;
+num_total_level_2 = 7;
+num_total_level_3 = 9;
+
+num_matched = 0;
