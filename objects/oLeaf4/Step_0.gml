@@ -25,7 +25,7 @@ if (num > 0) {
 	for(var i = 0; i <= num; i += 1) {
 		var obj = instance_find(oLeaf4_Outline, i);
 		if(place_meeting(id.x, id.y, obj)) {
-			if ((point_distance(id.x, id.y, obj.x, obj.y) < 15) && (abs(id.image_angle - obj.image_angle) < 5)) {
+			if ((point_distance(id.x, id.y, obj.x, obj.y) < 15) && (abs(id.image_angle - obj.image_angle) < 5) && id.image_xscale == obj.image_xscale && id.image_yscale == obj.image_yscale) {
 				id.x = obj.x;
 				id.y = obj.y;
 				id.image_angle = obj.image_angle;
