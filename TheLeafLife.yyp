@@ -86,6 +86,7 @@
     {"id":{"name":"sLeaf3_Outline","path":"sprites/sLeaf3_Outline/sLeaf3_Outline.yy",},"order":11,},
     {"id":{"name":"sLeaf1Small","path":"sprites/sLeaf1Small/sLeaf1Small.yy",},"order":26,},
     {"id":{"name":"oLeaf3_Outline","path":"objects/oLeaf3_Outline/oLeaf3_Outline.yy",},"order":7,},
+    {"id":{"name":"Forest","path":"sprites/Forest/Forest.yy",},"order":42,},
     {"id":{"name":"infoRoom1","path":"rooms/infoRoom1/infoRoom1.yy",},"order":5,},
     {"id":{"name":"sLeaf6","path":"sprites/sLeaf6/sLeaf6.yy",},"order":34,},
     {"id":{"name":"sLeaf6_Outline","path":"sprites/sLeaf6_Outline/sLeaf6_Outline.yy",},"order":35,},

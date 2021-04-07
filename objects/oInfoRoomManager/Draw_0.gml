@@ -6,6 +6,7 @@ if(room == infoRoom2) {
 	draw_text(100, 10, string(info2));
 }
 if(room == infoRoom3) {
+	draw_set_color(c_white);
 	draw_text(100, 10, string(info3));
 }
 
