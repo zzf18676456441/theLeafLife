@@ -1,4 +1,4 @@
-var info1 = "Hello this is a test";
+var info1 = "Do you know, polar bears could be lost by 2100. \n                   Due to the climate change, the ice  \n                            in the arctic pole is fading away...... ";
 var info2 = "Hello this is another test";
 var info3 = "test";
 var info4 = "Hello";

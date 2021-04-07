@@ -1,2 +1,2 @@
-draw_set_color(c_white);
-draw_text(100, 100, string(global.infoList[| chosen]));
+draw_set_color(c_black);
+draw_text(100, 10, string(global.infoList[| chosen]));

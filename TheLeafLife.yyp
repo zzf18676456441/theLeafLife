@@ -1,7 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"Bear","path":"sprites/Bear/Bear.yy",},"order":32,},
     {"id":{"name":"get_gover","path":"scripts/get_gover/get_gover.yy",},"order":0,},
     {"id":{"name":"sBearTomb","path":"sprites/sBearTomb/sBearTomb.yy",},"order":17,},
+    {"id":{"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},"order":15,},
     {"id":{"name":"on_click_restart","path":"scripts/on_click_restart/on_click_restart.yy",},"order":7,},
     {"id":{"name":"infoRoom3","path":"rooms/infoRoom3/infoRoom3.yy",},"order":7,},
     {"id":{"name":"oSound","path":"objects/oSound/oSound.yy",},"order":24,},
@@ -34,6 +36,7 @@
     {"id":{"name":"sBkg","path":"sprites/sBkg/sBkg.yy",},"order":19,},
     {"id":{"name":"Sprite22","path":"sprites/Sprite22/Sprite22.yy",},"order":25,},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":6,},
+    {"id":{"name":"SonwLand","path":"sprites/SonwLand/SonwLand.yy",},"order":31,},
     {"id":{"name":"oCloud2","path":"objects/oCloud2/oCloud2.yy",},"order":20,},
     {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":2,},
     {"id":{"name":"sLeaf2_Outline","path":"sprites/sLeaf2_Outline/sLeaf2_Outline.yy",},"order":9,},
@@ -42,6 +45,7 @@
     {"id":{"name":"infoRoom2","path":"rooms/infoRoom2/infoRoom2.yy",},"order":6,},
     {"id":{"name":"oTrees","path":"objects/oTrees/oTrees.yy",},"order":30,},
     {"id":{"name":"oRabbitTomb","path":"objects/oRabbitTomb/oRabbitTomb.yy",},"order":28,},
+    {"id":{"name":"IceMove","path":"objects/IceMove/IceMove.yy",},"order":35,},
     {"id":{"name":"on_click_quit","path":"scripts/on_click_quit/on_click_quit.yy",},"order":4,},
     {"id":{"name":"oTree2","path":"objects/oTree2/oTree2.yy",},"order":29,},
     {"id":{"name":"sCloud","path":"sprites/sCloud/sCloud.yy",},"order":20,},
@@ -71,6 +75,7 @@
     {"id":{"name":"oLeaf3_Outline","path":"objects/oLeaf3_Outline/oLeaf3_Outline.yy",},"order":7,},
     {"id":{"name":"infoRoom1","path":"rooms/infoRoom1/infoRoom1.yy",},"order":5,},
     {"id":{"name":"oLeafDrop2","path":"objects/oLeafDrop2/oLeafDrop2.yy",},"order":23,},
+    {"id":{"name":"Ice","path":"sprites/Ice/Ice.yy",},"order":33,},
     {"id":{"name":"practiceRoom","path":"rooms/practiceRoom/practiceRoom.yy",},"order":2,},
     {"id":{"name":"startRoom1","path":"rooms/startRoom1/startRoom1.yy",},"order":0,},
   ],
