@@ -91,7 +91,7 @@ if(room != startRoom1) {
 		}
 	}
 	
-	if (room == Room3) {
+	if (room == Room4) {
 		if (num_matched == num_total_level_4) {
 			if (room_exists(room_next(room))) {
 				//event_user(3);
@@ -100,7 +100,7 @@ if(room != startRoom1) {
 		}
 	}
 	
-	if (room == Room4) {
+	if (room == Room3) {
 		if (num_matched == num_total_level_5) {
 			if (room_exists(room_next(room))) {
 				//event_user(3);
