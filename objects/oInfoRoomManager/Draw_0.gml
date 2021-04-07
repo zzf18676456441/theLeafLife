@@ -9,3 +9,12 @@ if(room == infoRoom3) {
 	draw_text(100, 10, string(info3));
 }
 
+if(room == infoRoom4) {
+	draw_text(100, 10, string(info4));
+}
+
+
+if(room == infoRoom5) {
+	draw_text(100, 10, string(info5));
+}
+

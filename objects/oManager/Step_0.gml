@@ -14,7 +14,7 @@ if(keyboard_check_pressed(vk_escape)){
 
 }
 
-if(room == infoRoom1 || room == infoRoom2 || room == infoRoom3) {
+if(room == infoRoom1 || room == infoRoom2 || room == infoRoom3 || room == infoRoom4 || room == infoRoom5) {
 	event_user(3);
 }
 
@@ -50,6 +50,18 @@ if(room != startRoom1) {
 		}
 	}
 	
+	for(i = 0; i < instance_number(oLeaf6); i += 1) {
+		if (instance_find(oLeaf6, i).is_matched == 1) {
+			num_matched += 1;
+		}
+	}
+	
+	for(i = 0; i < instance_number(oLeaf7); i += 1) {
+		if (instance_find(oLeaf7, i).is_matched == 1) {
+			num_matched += 1;
+		}
+	}
+	
 	//show_debug_message("NUM MATCHED: " + string(num_matched));
 	
 	if (room == practiceRoom) {
@@ -72,6 +84,24 @@ if(room != startRoom1) {
 	
 	if (room == Room2) {
 		if (num_matched == num_total_level_3) {
+			if (room_exists(room_next(room))) {
+				//event_user(3);
+				room_goto_next();
+			}
+		}
+	}
+	
+	if (room == Room3) {
+		if (num_matched == num_total_level_4) {
+			if (room_exists(room_next(room))) {
+				//event_user(3);
+				room_goto_next();
+			}
+		}
+	}
+	
+	if (room == Room4) {
+		if (num_matched == num_total_level_5) {
 			if (room_exists(room_next(room))) {
 				//event_user(3);
 				room_goto_next();

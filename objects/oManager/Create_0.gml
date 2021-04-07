@@ -15,5 +15,7 @@ if(room = startRoom1){
 num_total_level_1 = 4;
 num_total_level_2 = 7;
 num_total_level_3 = 9;
+num_total_level_4 = 13;
+num_total_level_5 = 9;
 
 num_matched = 0;
