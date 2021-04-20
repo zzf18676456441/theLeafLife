@@ -25,11 +25,11 @@ if (num > 0) {
 	for(var i = 0; i <= num; i += 1) {
 		var obj = instance_find(oLeaf6_Outline, i);
 		if(place_meeting(id.x, id.y, obj)) {
-			if ((point_distance(id.x, id.y, obj.x, obj.y) < 15) && (abs(id.image_angle - obj.image_angle) < 5) && id.image_xscale == obj.image_xscale && id.image_yscale == obj.image_yscale) {
+			if ((point_distance(id.x, id.y, obj.x, obj.y) < 15) && (abs(id.image_angle - obj.image_angle) < 5) && id.image_xscale == obj.image_xscale && id.image_yscale == obj.image_yscale && obj.has_match == 0) {
 				id.x = obj.x;
 				id.y = obj.y;
 				id.image_angle = obj.image_angle;
-				//obj.has_match = 1;
+				obj.has_match = 1;
 				is_matched = 1;
 			} else {
 				//obj.has_match = 0;
