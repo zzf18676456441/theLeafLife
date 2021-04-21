@@ -3,9 +3,9 @@
 var _width = 300;
 var _height = 100;
 
-create_buttons(550, 150, _width, _height, "Resume", on_click_resume); // <- Do not include ()
+create_buttons(550, 150, _width, _height, "Restart", on_click_restart()); // <- Do not include ()
 
-create_buttons(550, 150 + _height + 40, _width, _height, "Main Menu", on_click_restart);
+create_buttons(550, 150 + _height + 40, _width, _height, "Main Menu", on_click_backMain());
 
 create_buttons(550, 150 + (_height + 40) * 2, _width, _height, "Options", on_click_options);
 

@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "on_click_resume",
+  "name": "on_click_backMain",
   "tags": [],
   "resourceType": "GMScript",
 }
