@@ -6,6 +6,7 @@ function on_click_restart(){
 		obj.is_matched = 0;
 		obj.x = obj.xstart;
 		obj.y = obj.ystart;
+		obj.image_angle = obj.startAgnle
 	}
 	
 	for(i = 0; i < instance_number(oLeaf2); i+= 1) {
@@ -13,6 +14,7 @@ function on_click_restart(){
 		obj.is_matched = 0;
 		obj.x = obj.xstart;
 		obj.y = obj.ystart;
+		obj.image_angle = obj.startAgnle
 	}
 	
 	for(i = 0; i < instance_number(oLeaf3); i+= 1) {
@@ -20,6 +22,7 @@ function on_click_restart(){
 		obj.is_matched = 0;
 		obj.x = obj.xstart;
 		obj.y = obj.ystart;
+		obj.image_angle = obj.startAgnle
 	}
 	
 	for(i = 0; i < instance_number(oLeaf4); i+= 1) {
@@ -27,6 +30,7 @@ function on_click_restart(){
 		obj.is_matched = 0;
 		obj.x = obj.xstart;
 		obj.y = obj.ystart;
+		obj.image_angle = obj.startAgnle
 	}
 	
 	for(i = 0; i < instance_number(oLeaf5); i+= 1) {
@@ -34,6 +38,7 @@ function on_click_restart(){
 		obj.is_matched = 0;
 		obj.x = obj.xstart;
 		obj.y = obj.ystart;
+		obj.image_angle = obj.startAgnle
 	}
 	
 	for(i = 0; i < instance_number(oLeaf6); i+= 1) {
@@ -41,6 +46,7 @@ function on_click_restart(){
 		obj.is_matched = 0;
 		obj.x = obj.xstart;
 		obj.y = obj.ystart;
+		obj.image_angle = obj.startAgnle
 	}
 	
 	for(i = 0; i < instance_number(oLeaf7); i+= 1) {
@@ -48,6 +54,7 @@ function on_click_restart(){
 		obj.is_matched = 0;
 		obj.x = obj.xstart;
 		obj.y = obj.ystart;
+		obj.image_angle = obj.startAgnle
 	}
 	
 	for(i = 0; i < instance_number(oLeaf1_Outline); i+= 1) {
